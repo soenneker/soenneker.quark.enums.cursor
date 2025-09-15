@@ -1,4 +1,5 @@
 ﻿using Intellenum;
+using Soenneker.Quark.Enums.GlobalKeywords;
 
 namespace Soenneker.Quark.Enums.Cursor;
 
@@ -97,4 +98,6 @@ public partial class Cursor
     /// Indicates diagonal resizing (north-west to south-east).
     /// </summary>
     public static readonly Cursor ResizeNorthWestSouthEast = new("nwse-resize");
+
+    public static implicit operator Cursor(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
