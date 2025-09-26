@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.Cursor;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// An enumeration for Quark, representing html/css cursor types.
