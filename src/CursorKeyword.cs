@@ -1,11 +1,11 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Quark.Enums;
 
 /// <summary>
 /// An enumeration for Quark, representing html/css cursor types.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public partial class CursorKeyword
 {
     /// <summary>
