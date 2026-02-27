@@ -6,6 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// An enumeration for Quark, representing html/css cursor types.
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public partial class CursorKeyword
 {
     /// <summary>
@@ -97,6 +98,4 @@ public partial class CursorKeyword
     /// Indicates diagonal resizing (north-west to south-east).
     /// </summary>
     public static readonly CursorKeyword ResizeNorthWestSouthEast = new("nwse-resize");
-
-    public static implicit operator CursorKeyword(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
