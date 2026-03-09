@@ -1,7 +1,7 @@
 ﻿[![](https://img.shields.io/nuget/v/soenneker.quark.enums.cursor.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.quark.enums.cursor/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.quark.enums.cursor/publish-package.yml?style=for-the-badge)](https://github.com/soenneker/soenneker.quark.enums.cursor/actions/workflows/publish-package.yml)
 [![](https://img.shields.io/nuget/dt/soenneker.quark.enums.cursor.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.quark.enums.cursor/)
-[![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.quark.enums.cursor/security-scan.yml?style=for-the-badge)](https://github.com/soenneker/soenneker.quark.enums.cursor/actions/workflows/security-scan.yml)
+[![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.quark.enums.cursor/security-scan.yml?label=Security%20Scan&style=for-the-badge)](https://github.com/soenneker/soenneker.quark.enums.cursor/actions/workflows/security-scan.yml)
 
 # ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Quark.Enums.Cursor
 ### An enumeration for Quark, representing html/css cursor types.
