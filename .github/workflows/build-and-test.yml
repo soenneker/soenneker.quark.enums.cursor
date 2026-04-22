@@ -38,7 +38,7 @@ jobs:
         run: dotnet build test/Soenneker.Quark.Enums.Cursor.Tests/Soenneker.Quark.Enums.Cursor.Tests.csproj --configuration Release --no-restore --verbosity minimal
 
       - name: Test
-        run: dotnet test test/Soenneker.Quark.Enums.Cursor.Tests/Soenneker.Quark.Enums.Cursor.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
+        run: dotnet test --project test/Soenneker.Quark.Enums.Cursor.Tests/Soenneker.Quark.Enums.Cursor.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
 
       - name: Pack
         run: dotnet pack src/Soenneker.Quark.Enums.Cursor/Soenneker.Quark.Enums.Cursor.csproj --configuration Release --no-build --no-restore --output . --verbosity minimal
