@@ -9,6 +9,8 @@ namespace Soenneker.Quark;
 [IncludeEnumValues(typeof(GlobalKeyword))]
 public partial class CursorKeyword
 {
+    public static readonly CursorKeyword Auto = new("auto");
+
     /// <summary>
     /// The default cursor, typically an arrow.
     /// </summary>
@@ -59,6 +61,14 @@ public partial class CursorKeyword
     /// </summary>
     public static readonly CursorKeyword NotAllowed = new("not-allowed");
 
+    public static readonly CursorKeyword None = new("none");
+    public static readonly CursorKeyword ContextMenu = new("context-menu");
+    public static readonly CursorKeyword Cell = new("cell");
+    public static readonly CursorKeyword VerticalText = new("vertical-text");
+    public static readonly CursorKeyword Alias = new("alias");
+    public static readonly CursorKeyword Copy = new("copy");
+    public static readonly CursorKeyword NoDrop = new("no-drop");
+
     /// <summary>
     /// A crosshair, often used for precise selection.
     /// </summary>
@@ -78,6 +88,17 @@ public partial class CursorKeyword
     /// Indicates that panning is possible in any direction.
     /// </summary>
     public static readonly CursorKeyword AllScroll = new("all-scroll");
+
+    public static readonly CursorKeyword ColResize = new("col-resize");
+    public static readonly CursorKeyword RowResize = new("row-resize");
+    public static readonly CursorKeyword NResize = new("n-resize");
+    public static readonly CursorKeyword EResize = new("e-resize");
+    public static readonly CursorKeyword SResize = new("s-resize");
+    public static readonly CursorKeyword WResize = new("w-resize");
+    public static readonly CursorKeyword NeResize = new("ne-resize");
+    public static readonly CursorKeyword NwResize = new("nw-resize");
+    public static readonly CursorKeyword SeResize = new("se-resize");
+    public static readonly CursorKeyword SwResize = new("sw-resize");
 
     /// <summary>
     /// Indicates vertical resizing (north–south).
