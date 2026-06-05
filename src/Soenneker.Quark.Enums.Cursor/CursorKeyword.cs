@@ -9,6 +9,9 @@ namespace Soenneker.Quark;
 [IncludeEnumValues(typeof(GlobalKeyword))]
 public partial class CursorKeyword
 {
+    /// <summary>
+    /// The auto.
+    /// </summary>
     public static readonly CursorKeyword Auto = new("auto");
 
     /// <summary>
@@ -61,12 +64,33 @@ public partial class CursorKeyword
     /// </summary>
     public static readonly CursorKeyword NotAllowed = new("not-allowed");
 
+    /// <summary>
+    /// The none.
+    /// </summary>
     public static readonly CursorKeyword None = new("none");
+    /// <summary>
+    /// The context menu.
+    /// </summary>
     public static readonly CursorKeyword ContextMenu = new("context-menu");
+    /// <summary>
+    /// The cell.
+    /// </summary>
     public static readonly CursorKeyword Cell = new("cell");
+    /// <summary>
+    /// The vertical text.
+    /// </summary>
     public static readonly CursorKeyword VerticalText = new("vertical-text");
+    /// <summary>
+    /// The alias.
+    /// </summary>
     public static readonly CursorKeyword Alias = new("alias");
+    /// <summary>
+    /// The copy.
+    /// </summary>
     public static readonly CursorKeyword Copy = new("copy");
+    /// <summary>
+    /// The no drop.
+    /// </summary>
     public static readonly CursorKeyword NoDrop = new("no-drop");
 
     /// <summary>
@@ -89,15 +113,45 @@ public partial class CursorKeyword
     /// </summary>
     public static readonly CursorKeyword AllScroll = new("all-scroll");
 
+    /// <summary>
+    /// The col resize.
+    /// </summary>
     public static readonly CursorKeyword ColResize = new("col-resize");
+    /// <summary>
+    /// The row resize.
+    /// </summary>
     public static readonly CursorKeyword RowResize = new("row-resize");
+    /// <summary>
+    /// The n resize.
+    /// </summary>
     public static readonly CursorKeyword NResize = new("n-resize");
+    /// <summary>
+    /// The e resize.
+    /// </summary>
     public static readonly CursorKeyword EResize = new("e-resize");
+    /// <summary>
+    /// The s resize.
+    /// </summary>
     public static readonly CursorKeyword SResize = new("s-resize");
+    /// <summary>
+    /// The w resize.
+    /// </summary>
     public static readonly CursorKeyword WResize = new("w-resize");
+    /// <summary>
+    /// The ne resize.
+    /// </summary>
     public static readonly CursorKeyword NeResize = new("ne-resize");
+    /// <summary>
+    /// The nw resize.
+    /// </summary>
     public static readonly CursorKeyword NwResize = new("nw-resize");
+    /// <summary>
+    /// The se resize.
+    /// </summary>
     public static readonly CursorKeyword SeResize = new("se-resize");
+    /// <summary>
+    /// The sw resize.
+    /// </summary>
     public static readonly CursorKeyword SwResize = new("sw-resize");
 
     /// <summary>
